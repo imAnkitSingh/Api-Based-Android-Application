@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:orientation="vertical"
+    android:background="#1fe05f">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/circularImg"
+            app:civ_border_color="#6e0dd0"
+            app:civ_border_width="3dp"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="-1"
+            app:civ_shadow_color="#8BC34A"
+            android:src="@drawable/foundersirrr"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/sLogo"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/logo"/>
+</LinearLayout>
